@@ -1,7 +1,7 @@
 // const io = require('socket.io')(8000)
 const io = require('socket.io')(8000, {
     cors: {
-      origin: "http://127.0.0.1:5500", // Allow your front-end origin
+      origin: "https://realtime-chat-website.vercel.app/", // Allow your front-end origin
       methods: ["GET", "POST"]
       }
     })
